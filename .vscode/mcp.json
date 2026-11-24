@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "keysight-instrument-control": {
+      "type": "stdio",
+      "command": "C:\\Program Files\\Keysight\\MCP\\Instrument Control\\mcp-instrument-control.exe",
+      "args": ["-transport", "stdio", "-visa-provider", "ni", "-log-level", "warn"],
+      "env": {
+        "KMSIC_DB_KEY": "93D23EC6314CDB5759FBDEDB48C6C8129FB5A6244694B61844CEB161EF0ECE3E"
+      }
+    }
+  }
+}
